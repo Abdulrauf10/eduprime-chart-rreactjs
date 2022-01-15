@@ -1,0 +1,37 @@
+.footer{
+  width: 100%;
+}
+
+.report{
+  text-align: left;
+  font-size: 20px;
+}
+
+.jatim{
+  float: left;
+  font-size: 10px;
+  color: gray;
+  font-style: italic;
+  margin-bottom: -15px;
+}
+
+.page{
+  text-align: right;
+  float: right;
+  font-size: 20px;
+  border-bottom: solid 2px red;
+  width: 100%;
+}
+
+.supported{
+  float: right;
+  font-style: italic;
+  color: gray;
+}
+
+.eduprime{
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  padding: 3px;
+}

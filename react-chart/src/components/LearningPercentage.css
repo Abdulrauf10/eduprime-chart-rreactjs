@@ -1,0 +1,63 @@
+.learning_percentage{
+  width: 100%;
+  height: 50vh;
+}
+
+.row_point{
+  padding-top: 50px;
+}
+
+.fa-binoculars{
+  background-color: #003566;
+  padding: 25px;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+}
+
+.visual{
+  color: #003566;
+  font-weight: bolder;
+}
+
+.fa-headphones-alt{
+  background-color: #003566;
+  padding: 25px;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+}
+
+.fa-walking{
+  background-color: #003566;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#psycology_test{
+  margin-top: 90px;
+  float: left;
+  background-color: #003566;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.line_chart{
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  margin-top: 160px;
+}
+
+@media only screen and (max-width: 450px) {
+  .learning_percentage{
+    width: 100%;
+    height: 70vh;
+  }
+}

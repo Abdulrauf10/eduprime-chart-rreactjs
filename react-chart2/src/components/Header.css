@@ -1,0 +1,34 @@
+.header {
+  width: 100%;
+  min-height: 100px;
+  background-image: linear-gradient(to right, #003566 80%, gray 20%);
+}
+
+.list_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  
+  color: white;
+}
+
+.fa-hourglass {
+  font-size: 40px;
+}
+
+.middle {
+  text-align: left;
+}
+
+@media only screen and (max-width: 450px) {
+  .header{
+    background-image: linear-gradient(to right, blue 75%, gray 25%);
+  }
+  
+  .list_item{
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+  }
+}

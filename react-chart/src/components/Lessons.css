@@ -1,0 +1,48 @@
+.lessons{
+  width: 100%;
+  height: 50vh;
+}
+
+.layout {
+  padding-top: 40px;
+}
+
+.lesson_layout{
+  margin-top: 70px;
+}
+
+.color_star{
+  color: red;
+}
+
+#border_rigth{
+  border-right: 1px solid gray;
+}
+
+#information{
+  margin-top: 80px;
+  float: left;
+  background-color: #003566;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  border-bottom: solid 1px gray;
+}
+
+.line_lessons{
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  margin-top: 160px;
+}
+
+@media only screen and (max-width: 450px) {
+  .lessons{
+    width: 100%;
+    height: 70vh;
+  }
+
+  #information{
+    margin-top: 50px;
+  }
+}
